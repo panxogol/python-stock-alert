@@ -1,0 +1,6 @@
+venv/
+.idea/
+__pycache__/
+.DS_Store
+.project_config
+keys_data.txt
