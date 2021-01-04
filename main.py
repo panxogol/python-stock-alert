@@ -107,14 +107,14 @@ def main():
         the funds' and investors' portfolio positions as of March 31st, near the height 
         of the coronavirus market crash.
         """
-
-    twilio_client = Client(username=TWILIO_SID, password=TWILIO_AUTH_TOKEN)
-    message = twilio_client.messages.create(
-        from_=TWILIO_PHONE_NUMBER,
-        to=USER_PHONE_NUMBER,
-        body="Hi, the scheduler is running"
-    )
-    print(message.sid)
+    # --Uncomment the next lines for testing purpose--
+    # twilio_client = Client(username=TWILIO_SID, password=TWILIO_AUTH_TOKEN)
+    # message = twilio_client.messages.create(
+    #     from_=TWILIO_PHONE_NUMBER,
+    #     to=USER_PHONE_NUMBER,
+    #     body="Hi, the scheduler is running"
+    # )
+    # print(message.sid)
 
 
 # --- RUN ---
