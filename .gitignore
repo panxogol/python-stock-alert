@@ -4,3 +4,4 @@ __pycache__/
 .DS_Store
 .project_config
 keys_data.txt
+*.pyc
